@@ -47,11 +47,14 @@ Follow these steps to set up the project locally.
 The project is organized as follows:
 
 ```
-customizable-grid-layout/
+react-app/
+├── node_modules/
 ├── public/
-│   ├── index.html
-│   └── ...
+│   ├── img/
+│   │   └── img-one.png
+│   └── index.html
 ├── src/
+│   ├── assets/
 │   ├── Components/
 │   │   ├── ButtonWidget.jsx
 │   │   ├── ChartWidget.jsx
@@ -63,10 +66,16 @@ customizable-grid-layout/
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
+├── .eslintrc.cjs
 ├── .gitignore
+├── index.html
+├── LICENSE
+├── package-lock.json
 ├── package.json
+├── postcss.config.js
 ├── README.md
-└── ...
+├── tailwind.config.js
+└── vite.config.js
 ```
 
 ### Components
