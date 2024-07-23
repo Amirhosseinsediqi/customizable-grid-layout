@@ -51,8 +51,6 @@ react-app/
 ├── node_modules/
 ├── public/
 │   ├── img/
-│   │   └── img-one.png
-│   └── index.html
 ├── src/
 │   ├── assets/
 │   ├── Components/
